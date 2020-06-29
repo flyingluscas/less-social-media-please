@@ -1,0 +1,12 @@
+{
+  "name": "Less Social Media Pls",
+  "version": "0.1.0",
+  "description": "Block social media during work hours.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["src/block-twitter.css"]
+    }
+  ]
+}
