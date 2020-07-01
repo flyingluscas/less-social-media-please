@@ -7,6 +7,10 @@
     {
       "matches": ["https://twitter.com/*"],
       "css": ["src/block-twitter.css"]
+    },
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "css": ["src/block-instagram.css"]
     }
   ]
 }
