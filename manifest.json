@@ -12,5 +12,8 @@
       "matches": ["https://www.instagram.com/*"],
       "css": ["src/block-instagram.css"]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_popup": "src/index.html"
+  }
 }
